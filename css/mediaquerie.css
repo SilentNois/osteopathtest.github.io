@@ -3,27 +3,21 @@
        display: none;
        
     }
-    .wrappBG {
-        width: 100%;
-        min-width: 1000px;
-    }
     .wrapper {
        padding: 8px 8px 8px 8px;
-       max-width: 1000px;
     }
     .main{
-        max-width: 1000px;
-        height: 768px;
+        height: 700px;
     }
     .intro{
-        height: 768px;
+        height: 700px;
     }
     .characterInfo{
-        width: 500px;
+        max-width: 500px;
+        min-width: 300px;
         height: 380px;
-        left: 25%;
-        top: 2%;
     } 
+   
     .doctorName{
         font-size: 46px;
         line-height: 55px;
@@ -122,7 +116,6 @@
     }
     .wrappBG {
         width: 100%;
-        min-width: 300px;
     }
     .wrapper {
        padding: 8px 8px 8px 8px;
@@ -133,15 +126,19 @@
         height: 465px;
     }
     .intro{
+        min-width: 300px;
         height: 465px;
     }
-
+    .characterPositioner{
+        top: 3%;
+        left: 3%;
+    }
     .characterInfo{
-        width: 275px;
+        max-width: 275px;
+        min-width: 200px;
         height: 300px;
-        left: 5%;
-        top: 8%;
     } 
+    
     .doctorName{
         font-size: 31px;
         line-height: 37px;
@@ -156,7 +153,6 @@
 
     }
     .bannerImageRotate{
-        top: 65px;
         padding: 0 16px;
     }
     .bannerRightImg, .bannerLeftImg{

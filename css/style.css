@@ -55,6 +55,7 @@ body {
     width: 100%;
     margin: 0 auto;
     overflow-x: hidden;
+    margin: 0 auto;
 }
 
 ol, ul {
@@ -106,7 +107,7 @@ html{
 }
 
 .wrapper{
-    min-width: 1024px;
+    min-width: 1000px;
     max-width: 1900px;
     margin: 0 auto;
     padding: 12px 48px 12px 48px;
@@ -170,29 +171,36 @@ html{
   
   /* Start intro styles  */
 .main {
-    min-width: 1024px;
+    width: 100%;
+    min-width: 1000px;
     max-width: 1900px;
     margin: 0 auto;
 }
 .intro {
     display: block;
-    height: 1024px;
+    min-width: 1000px;
+    height: 840px;
     background:url(../img/armMobilityTheraoy.jpg) no-repeat center;
     background-size: cover;
     margin: 0;
 }
+.characterPositioner{
+    display: inline-block;
+    position: relative;
+    top: 3%;
+    left: 45%;
+}
 .characterInfo {
     margin: 0;
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px;
     gap: 24px;
-    position: relative;
+    min-width: 550px;
+    max-width: 750px;
     height: 420px;
-    left: 15%;
-    top: 5%;
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
 
@@ -289,17 +297,23 @@ line-height: 120%;
     background-color:rgba(38, 56, 121, 0.85);
   }
 
+.bannerPositioner{
+    display: block ;
+    position: relative;
+    top: 25%;
+}
 .bannerImageRotate {
+    box-sizing: border-box;
     margin: 0 auto;
     display: flex;
-    position: relative;
+    flex-direction: row;
     justify-content: space-between;
-    top: 440px;
+    align-items: center;
     padding: 0 48px;
+    
 }
 .bannerLeftImg {
     display: block;
-    rotate: 180deg;
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
     align-items: center;
@@ -310,7 +324,7 @@ line-height: 120%;
     text-fill-color: transparent;
     font-size: 64px;
     line-height: 1;
-    filter: drop-shadow(-2px -2px 3px #000);
+    filter: drop-shadow(2px 2px 3px #000);
     transition: all 150ms ease;
   }
   .bannerRightImg {
@@ -385,7 +399,6 @@ line-height: 120%;
   /* start of heroDoctor  */
 .heroBenefitsTestemonialWrapper {
     width: 100%;
-    min-width: 1024px;
     background: #DCF2FE;
     padding-top: 256px;
     padding-bottom: 256px;

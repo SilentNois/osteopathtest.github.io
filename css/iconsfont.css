@@ -24,6 +24,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+._icon-shevronLeft:before {
+  content: "\e904";
+}
+._icon-shevronRight:before {
+  content: "\e909";
+}
 ._icon-mail:before {
   content: "\e908";
 }
@@ -35,9 +41,6 @@
 }
 ._icon-shield-check:before {
   content: "\e907";
-}
-._icon-shevronRight:before {
-  content: "\e904";
 }
 ._icon-facebook_logo:before {
   content: "\e900";
