@@ -54,6 +54,7 @@ body {
     color: #FFFFFF;
     width: 100%;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 ol, ul {
@@ -105,7 +106,8 @@ html{
 }
 
 .wrapper{
-    width: 1900px;
+    min-width: 1024px;
+    max-width: 1900px;
     margin: 0 auto;
     padding: 12px 48px 12px 48px;
     display: flex;
@@ -168,7 +170,8 @@ html{
   
   /* Start intro styles  */
 .main {
-    width: 1900px;
+    min-width: 1024px;
+    max-width: 1900px;
     height: 100%;
     margin: 0 auto;
 }
@@ -189,8 +192,8 @@ html{
     position: relative;
     width: 750px;
     height: 420px;
-    left: 750px;
-    top: 125px;
+    left: 45%;
+    top: 5%;
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
 
@@ -346,8 +349,8 @@ line-height: 120%;
 
 .doctorContent {
     margin: 0 auto;
+  min-width: 1024px;
   max-width: 1900px;
-  min-width: 1900px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -382,7 +385,7 @@ line-height: 120%;
   /* start of heroDoctor  */
 .heroBenefitsTestemonialWrapper {
     width: 100%;
-    min-width: 1900px;
+    min-width: 1024px;
     background: #DCF2FE;
     padding-top: 256px;
     padding-bottom: 256px;
@@ -396,7 +399,7 @@ margin: 0px auto;
 .heroDoctorInfo {
     background-color: #fff;
     width: 100%;
-    min-width: 1440px;
+    min-width:1024px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -467,7 +470,8 @@ margin: 0px auto;
 
 
 .testemonialDiplomasSection {
-    width: 1900px;
+    min-width: 1024px;
+    max-width: 1900px;
     background-color: #ffffff;
     margin: 0 auto;
     display: flex;
@@ -479,7 +483,7 @@ margin: 0px auto;
     box-sizing: border-box;
 }
 .testemonialsContent {
-    width: 1600px;
+    min-width: 1024px;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -604,8 +608,9 @@ border-color: rgba(0, 0, 0, 0.05);
 .testemonialViewer {
     display: flex; 
     width: 100%;
-    max-width: 1600px;
+    min-width: 1024px;
     flex-direction: column;
+    padding:0px 24px ;
 }
 .testemonialHeader {
     width: 100%;
@@ -673,16 +678,18 @@ border-color: rgba(0, 0, 0, 0.05);
   /* end of heroDoctor  */
 /* start of callbackform */
 .formContainer {
-    width: 1900px;
+    max-width: 1900px;
+    min-width: 1024px;
     background: linear-gradient(90deg, #49B9EE 33.21%, #253879 68.28%);
     margin: 0 auto;  
 }
 .formHolder {
-    width: 1600px;
+    min-width: 800px;
     margin: 0 auto;
-    padding: 24px 0;
+    padding: 24px 24px;
     display: flex;
     flex-direction: row;
+    
     gap: 25px;
 }
 .formTitle {
@@ -712,7 +719,7 @@ border-color: rgba(0, 0, 0, 0.05);
     align-items: center;
     padding: 0px;
     gap: 24px;
-    width: 710px;
+    flex-grow: 2;
 }
 .callbackButton {
     box-sizing: border-box;
@@ -765,7 +772,8 @@ transform: translateY(2px);
 
 /* start of footer */
 .footerContainer {
-    width: 1900px;
+    max-width: 1900px;
+    min-width: 1024px;
     background: linear-gradient(90deg, #49B9EE 33.21%, #253879 68.28%);
     margin: 0 auto;
     display: flex;

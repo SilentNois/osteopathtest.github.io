@@ -68,16 +68,16 @@
         justify-content: space-around;
     }
     .testemonialDiplomasSection{
-        width: 1024px;
+        min-width: 1024px;
     }
     .testemonialsContent {
-        width: 800px;
+        min-width: 800px;
     }
     .formContainer{
-        width: 1024px;
+        min-width: 1024px;
     }
     .formHolder{
-        width: 950px;
+        min-width: 950px;
         gap:16px ;
     }
     .formTitle p {
@@ -86,7 +86,7 @@
     }
     .formButtonsHolder{
         gap: 16px;
-        width: 500px;
+        min-width: 500px;
     }
 
     .callbackButtonText{
@@ -97,7 +97,7 @@
         font-size: 20px;
     }
     .footerContainer{
-        width: 1024px;
+        min-width: 1024px;
         padding: 16px;
     }
 
@@ -126,10 +126,10 @@
     }
     .wrapper {
        padding: 8px 8px 8px 8px;
-       max-width: 320px;
+       min-width: 320px;
     }
     .main{
-        max-width: 320px;
+        min-width: 320px;
         height: 465px;
     }
     .intro{
@@ -163,7 +163,6 @@
         font-size: 28px;
     }
     .doctorContent{
-        max-width: 320px;
         min-width: 320px;
         padding: 16px;
     }
@@ -199,7 +198,7 @@
     .benefitsPlace {
         justify-content: space-around;
         padding: 0 16px;
-        width: 320px;
+        min-width: 320px;
         margin: 0 auto;
     }
     .benefitsCard{
@@ -214,7 +213,7 @@
         width: 240px;
     }
     .testemonialDiplomasSection{
-        width: 320px;
+        min-width: 320px;
         padding-top: 8px;
         padding-bottom: 24px;
     }
@@ -252,7 +251,7 @@
         font-size: 24px;
     }
     .testemonialsContent {
-        width: 310px;
+        min-width: 310px;
     }
     .testemonialText{
         font-size: 12px;
@@ -261,10 +260,11 @@
 
 
     .formContainer{
-        width: 320px;
+        min-width: 320px;
     }
     .formHolder{
-        width: 310px;
+        padding: 4px;
+        min-width: 310px;
         gap:16px ;
         flex-direction: column;
     }
@@ -279,7 +279,7 @@
     }
     .formButtonsHolder{
         gap: 8px;
-        width: 310px;
+        min-width: 310px;
     }
     .callbackButton{
         padding: 8px;
@@ -292,7 +292,7 @@
         font-size: 20px;
     }
     .footerContainer{
-        width: 320px;
+        min-width: 320px;
         padding: 16px;
     }
     .copyrightInfo{
