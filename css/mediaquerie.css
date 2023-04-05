@@ -1,0 +1,308 @@
+@media (max-width: 1024px) {
+    .menu__callToAction{
+       display: none;
+       
+    }
+    .wrappBG {
+        width: 100%;
+    }
+    .wrapper {
+       padding: 8px 8px 8px 8px;
+       max-width: 1024px;
+    }
+    .main{
+        max-width: 1024px;
+        height: 768px;
+    }
+    .intro{
+        height: 768px;
+    }
+    .characterInfo{
+        width: 500px;
+        height: 380px;
+        left: 300px;
+        top: 80px;
+    } 
+    .doctorName{
+        font-size: 46px;
+        line-height: 55px;
+    }
+    .doctorInfo{
+        font-size: 20px;
+        line-height: 39px;
+    }
+    .callToDoctorButton{
+        font-size: 20px;
+
+    }
+    .bannerImageRotate{
+        top: 220px;
+    }
+    .bannerRightImg, .bannerLeftImg{
+        font-size: 48px;
+    }
+    .doctorContent{
+        max-width: 1024px;
+        min-width: 1024px;
+        padding: 16px;
+    }
+    .heroBenefitsTestemonialWrapper{
+        min-width: 1024px;
+        gap: 128px;
+        padding-bottom: 128px;
+        padding-top: 128px;
+    }
+
+    .heroDoctorInfo {
+        min-width: 780px;
+        flex-direction: column;
+        text-align: center;
+        gap: 24px;
+        padding: 24px;
+    }
+    .doctorImg{
+        width: 200px;
+        height: 200px; 
+    }
+    .benefitsPlace {
+        justify-content: space-around;
+    }
+    .testemonialDiplomasSection{
+        width: 1024px;
+    }
+    .testemonialsContent {
+        width: 800px;
+    }
+    .formContainer{
+        width: 1024px;
+    }
+    .formHolder{
+        width: 950px;
+        gap:16px ;
+    }
+    .formTitle p {
+        font-size: 24px;
+    line-height: 32px;
+    }
+    .formButtonsHolder{
+        gap: 16px;
+        width: 500px;
+    }
+
+    .callbackButtonText{
+        font-size: 24px;
+    line-height: 32px;
+    }
+    .callbackIcon{
+        font-size: 20px;
+    }
+    .footerContainer{
+        width: 1024px;
+        padding: 16px;
+    }
+
+   }
+
+
+
+
+
+
+
+
+   @media (max-width: 321px) {
+    .header__paragraph__text{
+        font-size: 16px;
+    }
+    .menu__item{
+        font-size: 18px;
+    }
+    .menu__callToAction{
+       display: none;
+       
+    }
+    .wrappBG {
+        width: 100%;
+    }
+    .wrapper {
+       padding: 8px 8px 8px 8px;
+       max-width: 320px;
+    }
+    .main{
+        max-width: 320px;
+        height: 465px;
+    }
+    .intro{
+        height: 465px;
+    }
+
+    .characterInfo{
+        width: 280px;
+        height: 300px;
+        left: 16px;
+        top: 25px;
+    } 
+    .doctorName{
+        font-size: 31px;
+        line-height: 37px;
+    }
+    .doctorInfo{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .callToDoctorButton{
+        font-size: 16px;
+        padding: 4px 24px 4px 24px;
+
+    }
+    .bannerImageRotate{
+        top: 65px;
+        padding: 0 16px;
+    }
+    .bannerRightImg, .bannerLeftImg{
+        font-size: 28px;
+    }
+    .doctorContent{
+        max-width: 320px;
+        min-width: 320px;
+        padding: 16px;
+    }
+    .jobWayText{
+        font-size: 22px;
+        line-height: 120%;
+    }
+    .contentText{
+        font-size: 16px;
+        line-height: 120%;
+    }
+    .heroBenefitsTestemonialWrapper{
+        min-width:320px;
+        gap: 48px;
+        padding-bottom:48px;
+        padding-top: 48px;
+    }
+
+    .heroDoctorInfo {
+        min-width: 300px;
+        flex-direction: column;
+        text-align: center;
+        gap: 24px;
+        padding: 24px;
+    }
+    .doctorImg{
+        width: 160px;
+        height: 160px; 
+    }
+    .heroText{
+        font-size: 14px;
+    }
+    .benefitsPlace {
+        justify-content: space-around;
+        padding: 0 16px;
+        width: 320px;
+        margin: 0 auto;
+    }
+    .benefitsCard{
+    padding: 16px 8px;
+    
+    }
+    .innerBenefitsCard{
+        font-size: 24px;
+    }
+    .cardText{
+        font-size: 14px;
+        width: 240px;
+    }
+    .testemonialDiplomasSection{
+        width: 320px;
+        padding-top: 8px;
+        padding-bottom: 24px;
+    }
+    .testemonialsHead {
+        flex-direction: column  ;
+    }
+    
+    .switchTest_to_Diplomas{
+        border: 0;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .switchBorder{
+        border-width: 1px 0px 1px 0px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.05);
+
+    }
+    .itemScroller{
+        width: 140px;
+        padding: 4px 8px 4px 16px;
+        gap: 4px;
+    }
+    .scrollerText {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .scrollerIcon{
+        font-size: 18px;
+    }
+    .testemonialUserName{
+        font-size: 16px;
+    }
+    .testemonialLogo{
+        font-size: 24px;
+    }
+    .testemonialsContent {
+        width: 310px;
+    }
+    .testemonialText{
+        font-size: 12px;
+    }
+
+
+
+    .formContainer{
+        width: 320px;
+    }
+    .formHolder{
+        width: 310px;
+        gap:16px ;
+        flex-direction: column;
+    }
+    .formTitle{
+        padding: 16px;
+        border-right: 0;
+        border-bottom: 5px solid #4FCFF5;
+    }
+    .formTitle p {
+        font-size: 16px;
+    line-height: 24px;
+    }
+    .formButtonsHolder{
+        gap: 8px;
+        width: 310px;
+    }
+    .callbackButton{
+        padding: 8px;
+    }
+    .callbackButtonText{
+        font-size: 16px;
+    line-height: 24px;
+    }
+    .callbackIcon{
+        font-size: 20px;
+    }
+    .footerContainer{
+        width: 320px;
+        padding: 16px;
+    }
+    .copyrightInfo{
+        font-size: 12px;
+    }
+    .footerSocialsPlace{
+        gap: 8px;
+    }
+    .footerIcons{
+        font-size: 16px;
+    }
+   }
+
